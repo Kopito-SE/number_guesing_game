@@ -17,9 +17,9 @@ while True:
 
     if computer_choice == user_choice :
         print("Tie")
-    elif user_choice == "r" and computer_choice == "s"\
-        or user_choice == "s" and computer_choice == "p"\
-        or user_choice == "p" and computer_choice == "r" :
+    elif user_choice == ("r" and computer_choice == "s"
+        or user_choice == "s" and computer_choice == "p"
+        or user_choice == "p" and computer_choice == "r") :
         print("You Win")
     else:
         print("You Lose")
